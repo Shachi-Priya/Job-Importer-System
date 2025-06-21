@@ -1,0 +1,68 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# Logs
+logs/
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Build artifacts
+dist/
+build/
+.cache/
+.next/
+out/
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Redis dump
+dump.rdb
+
+# MongoDB data dumps
+*.mongodb
+
+# PM2 logs
+pids/
+*.pid
+
+# Docker files (if using)
+docker-compose.override.yml
+
+# Optional - if you use ESLint cache
+.eslintcache
+
+# Optional - if you use Prisma
+.prisma/
+
+# Optional - if you use uploads folder for temp storage
+uploads/
+tmp/
+
+# Optional - test coverage and reports
+coverage/
